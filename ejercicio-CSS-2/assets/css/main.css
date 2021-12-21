@@ -1,0 +1,39 @@
+body {
+    color: white;
+}
+
+input {
+    border: 2px solid red;
+    border-radius: 2px;
+    width: 200px; 
+}
+
+fieldset {
+    border: 0px;
+    padding: 0px;
+}
+
+.formulario {
+    background-color: rgb(0,128,0);
+    border: 12px solid rgb(175, 196, 222);
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.labels {
+    width: 10px;
+    margin: 50px;
+    float: left;
+}
+
+.fields {
+    margin: 50px;
+    float: right;
+}
+
+.section {
+    text-indent: 50px;;
+}

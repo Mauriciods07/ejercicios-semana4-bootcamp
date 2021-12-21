@@ -1,0 +1,112 @@
+<!-- Formularios con HTML -->
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formularios</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <form>
+            <!-- Campo para texto -->
+            <input type="text">
+            <!-- Campo para poner una fecha -->
+            <input type="date">
+            <!-- Paleta de colores -->
+            <input type="color">
+            <!-- Campo para introducir contraseñas -->
+            <input type="password">
+            <!-- Para cargar archivos -->
+            <input type="file">
+            <!-- Para checkbox -->
+            <input type="checkbox">
+            <!-- Para selectores circulares -->
+            <input type="radio">
+            <!-- Leer toda la información, ya tiene todo el código implementado -->
+            <input type="submit">
+            <!-- Botón, no tiene texto ni formato. value: texto -->
+            <input type="button" value="Enviarx2">
+        </form>
+        
+        <hr>
+        <!-- Otra forma de introducir un botón fuera de un formulario -->
+        <button>Hola</button>
+
+        <h1>Formulario</h1>
+        <form class="formulario">
+
+            <!-- Crear distintas secciones de un formulario y englobar los elementos. Crea un marco alrededor de los elementos, por ello, no es muy usado aunque se pueda quitar con CSS, pero sigue siendo una opción.
+                Se puede usar en vez de <div>, pero ambos pueden resultar reduntantes-->
+            <fieldset>
+                <div class="nombre">
+                    <!-- Etiqueta, título del campo -->
+                    <label for="nombre">Nombre</label>
+                    <!-- name: es una etiqueta para procesar la información con JS -->
+                    <!-- type: tipo de información que recibe -->
+                    <!-- placeholder: uso que se le dará al campo y se verá dentro del mismo-->
+                    <!-- required: el usuario debe llenar obligatoriamente el campo -->
+                    <input 
+                        id="nombre"
+                        type="text"
+                        name="nombre"
+                        placeholder="Escribe tu nombre..."
+                        class="clase_nombre"
+                        required
+                    />
+                </div>
+                <div class="apellido">
+                    <!-- Una etiqueta y un campo se enlazan por medio de for e id, ambos deben tener el mismo valor -->
+                    <label for="apellido">Apellido</label>
+                    <input 
+                        id="apellido"
+                        type="text"
+                        name="apellido"
+                        placeholder="Ahora escribe tu apellido"
+                        required
+                    >
+                </div>
+                <div class="password">
+                    <label for="password">Contraseña</label>
+                    <input 
+                        id="password"
+                        type="password"
+                        name="password"
+                        placeholder="Escribe tu contraseña"
+                    >
+                </div>
+                
+                <div>
+                    <label for="Correo">Correo</label>
+                    <input 
+                        id="correo"
+                        name="correo"
+                        type="email"
+                        placeholder="Escribe tu correo"
+                    >
+                </div>
+
+                <div class="enviar">
+                    <input type="submit">
+                </div>
+                
+            </fieldset>
+        </form>
+
+        <form>
+            <fieldset>
+                <legend>Ingresa el número</legend>
+                <label for="numero">Numero</label>
+                <input 
+                    id="numero"
+                    type="number"
+                    name="numero"
+                    min="40"
+                    max="50"
+                >
+                <label for="rango">Rango</label>
+                <input id="rango" type="range" name="rango" min="40" max="50">
+            </fieldset>
+        </form>
+    </body>
+</html>

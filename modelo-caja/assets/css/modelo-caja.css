@@ -1,0 +1,39 @@
+body {
+    background-image: url(https://wallpaperaccess.com/full/221443.jpg);
+    /* background-image: url(../img/pattern.jpg); */
+    color: white;
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.subtitle {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.caja {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    font-size: 50px;
+    /* border-radius: 50%; círculo */
+
+    padding: 30px;
+}
+
+.rojo {
+    background-color: red;
+    border: 5px solid white;
+}
+
+.verde {
+    background-color: green;
+    border-top: 5px dashed white;
+}
+
+.azul {
+    background-color: blue;
+    border-bottom: 1px dotted white;
+    border-radius: 30px;
+}

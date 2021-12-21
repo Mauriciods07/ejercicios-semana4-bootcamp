@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio formulario</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <div class="formulario">
+        <form>
+            <fieldset>
+                    <legend>Datos del comprador</legend>
+                    <br>
+                    <div class="labels">
+                        <label for="nombre">Nombre</label>
+                        <br>
+                        <label for="email">Email</label>
+                        <br>
+                        <label for="telefono">Teléfono</label>
+                        <br>
+                        <label for="pais">País</label>
+                    </div>
+        
+                    <div class="fields">
+                        <input id="nombre" type="text" name="nombre" placeholder="Escribe tu nombre completo">
+                        <br>
+                        <input id="email" type="email" name="email" placeholder="ejemplo@um.es">
+                        <br>
+                        <input id="telefono" type="text" name="telefono" placeholder="Ej. +3466889999">
+                        <br>
+                        <input id="pais" type="text" name="" placeholder="">
+                    </div>
+            </fieldset>
+        </form>
+
+        <form>
+            <fieldset>
+                <legend>Datos de tarjeta de crédito o débito</legend>
+                <br>
+                <div class="labels">
+                    <label for="numero">Número</label>
+                    <br>
+                    <label for="nombre-tarjeta">Nombre</label>
+                </div>
+                            
+                <div class="fields">
+                    <input id="numero" type="number" name="numero" placeholder="Ej. 5555-4444-3333-2222">
+                    <br>
+                    <input id="nombre-tarjeta" type="text" name="nombre-tarjeta" placeholder="Nombre que figura en la tarjeta">
+                    </div>
+            </fieldset>
+        </form>
+
+        <p>--------------------------------------------</p>
+        
+        <input type="button" value="Confirmar pedido" style="border: 0px; width: auto;">
+    </div>
+</body>
+</html>
