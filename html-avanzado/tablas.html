@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tablas</title>
+        <link rel="stylesheet" href="assets/css/tablas.css">
+    </head>
+    <body>
+        <h1>Tablas</h1>
+        <!-- Crear una tabla -->
+        <!-- colspan y rowspan -->
+        <table>
+            <!-- Cabecera -->
+            <thead>
+                <!-- tr crea una fila -->
+                <tr>
+                    <!-- th cabecera de tabla, centra y pone en negritas la letra -->
+                    <th>Cabecera</th>
+                    <!-- A pesar del rowspan, no se combinan las filas, ese es el uso de thead y tbody, pues separa las partes de una tabla -->
+                    <th colspan="2" rowspan="2">Cabecera 2</th>
+                </tr>
+            </thead>
+            <!-- Cuerpo de la tabla -->
+            <tbody>
+                <tr>
+                    <td>A</td>
+                    <td>B</td>
+                    <td rowspan="3">C</td>
+                </tr>
+                <tr>
+                <!-- td inserta una celda en la fila creada -->
+                <!-- td: table data -->
+                <td rowspan="2">Hola</td>
+                <td>Adiós</td>
+                </tr>
+                <td>2</td>
+                <tr>
+
+                </tr>
+            </tbody>
+            <!-- Final de tabla -->
+            <tfoot>
+                <td>Pie de tabla</td>
+                <td>Pie de tabla</td>
+                <td>Pie de tabla</td>
+            </tfoot>
+        </table>
+
+    </body>
+</html>

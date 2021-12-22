@@ -9,3 +9,4 @@ Aquí se encuentran los siguientes ejercicios:
 * Ejercicios de maquetar dos páginas con CSS
 * Ejercicios de formularios (HTML avanzado)
 * Ejemplos de modelos de caja
+* Ejercicios de tablas
