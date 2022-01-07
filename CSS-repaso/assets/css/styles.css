@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap');
+
+body {
+    font-family: 'Josefin Slab', serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu {
+    background-color: #e48b8b;
+    height: 60px;
+}
+
+.menu ul {
+    width: 800px;
+    margin: 0 auto;
+}
+.menu .elemento:hover {
+    background: yellow;
+}
+
+.elemento {
+    display: inline;
+    margin: 0 20px;
+    padding: 10px;
+    /* margin: superior derecha inferior izquierda; */
+}
+
+.elemento a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+.elemento a:hover {
+    color: gray;
+    font-size: 30px;
+}

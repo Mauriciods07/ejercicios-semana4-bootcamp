@@ -1,0 +1,52 @@
+body {
+    background: rgb(211,211,211);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto 10%;
+}
+
+h1 {
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+h2 {
+    color: white;
+}
+
+img {
+    width: 130px;
+}
+
+p {
+    text-indent: 50px;
+}
+
+.texts {
+    display: flex;
+    padding: 0px 100px;
+}
+
+.title {
+    margin: auto;
+    text-align: center;
+}
+
+.subtitle {
+    background: rgb(128,128,128);
+    padding: 0 1%;
+}
+
+.orange {
+    color: rgb(255,9,20);
+    font-style: italic;
+}
+
+.highlight {
+    background: white;
+    font-weight: bold;
+}
+
+.txt-body {
+    display: inline;
+    padding: 1vh 0.5vw;
+}
